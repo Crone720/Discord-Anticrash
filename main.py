@@ -19,8 +19,7 @@ intents.message_content = True
 bot = commands.Bot(
     command_prefix="!",
     intents=intents,
-    help_command=None,
-    test_guilds=[1198697363028574368]
+    help_command=None
 )
 
 
